@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-xxl">
+                <a class="navbar-brand" href="#"><img src="./images_ks/logo2.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">About</a></li>
+                                <li><a class="dropdown-item" href="#">Katalog</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Services</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search souvenir"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End of navigation -->
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images_ks/carousel1.png" class="d-block w-100" alt="yurta">
+            </div>
+            <div class="carousel-item">
+                <img src="./images_ks/carousel2.png" class="d-block w-100" alt="green">
+            </div>
+            <div class="carousel-item">
+                <img src="./images_ks/carousel3.png" class="d-block w-100" alt="mountains">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+    <!-- End of carousel -->
+
+        <section>
+            <div class="container-xxl">
+                <h2>Top Categories</h2>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images_ks/souvernir7.jpeg" class="card-img-top" alt="camel">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Felted Camel</h5>
+                                      <p class="card-text">Lorem ipsum, dolor Lorem sit amet consectetur adipisicing elit. Veniam similique recusandae reprehenderit quos.</p>
+                                      <a href="#" class="btn btn-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images_ks/shyrdak_green.jpeg" class="card-img-top" alt="shyrdak">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Kyrgyz Wool Rug</h5>
+                                      <p class="card-text">Lorem ipsum, dolor sit Lorem consectetur adipisicing elit. Veniam similique recusandae reprehenderit quos.</p>
+                                      <a href="#" class="btn btn-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images_ks/scarf_darkblue.jpeg" class="card-img-top" alt="scarf">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Scarf with national patterns</h5>
+                                      <p class="card-text">Lorem ipsum, consectetur adipisicing elit. Veniam similique recusandae reprehenderit quos.</p>
+                                      <a href="#" class="btn btn-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images_ks/souvernir10.jpeg" class="card-img-top" alt="souvenir">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Felt Folk Doll</h5>
+                                      <p class="card-text">Lorem ipsum, dolor sit amet Lorem, ipsum. Lorem consectetur adipisicing elit. Veniam similique recusandae reprehenderit quos.</p>
+                                      <a href="#" class="btn btn-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images_ks/souvernir7.jpeg" class="card-img-top" alt="camel">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Felted Camel</h5>
+                                      <p class="card-text">Lorem ipsum, dolor Lorem sit amet consectetur adipisicing elit. Veniam similique recusandae reprehenderit quos.</p>
+                                      <a href="#" class="btn btn-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images_ks/shyrdak_green.jpeg" class="card-img-top" alt="shyrdak">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Kyrgyz Wool Rug</h5>
+                                      <p class="card-text">Lorem ipsum, dolor sit Lorem consectetur adipisicing elit. Veniam similique recusandae reprehenderit quos.</p>
+                                      <a href="#" class="btn btn-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images_ks/scarf_darkblue.jpeg" class="card-img-top" alt="scarf">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Scarf with national patterns</h5>
+                                      <p class="card-text">Lorem ipsum, consectetur adipisicing elit. Veniam similique recusandae reprehenderit quos.</p>
+                                      <a href="#" class="btn btn-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images_ks/souvernir10.jpeg" class="card-img-top" alt="souvenir">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Felt Folk Doll</h5>
+                                      <p class="card-text">Lorem ipsum, dolor sit amet Lorem, ipsum. Lorem consectetur adipisicing elit. Veniam similique recusandae reprehenderit quos.</p>
+                                      <a href="#" class="btn btn-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images_ks/souvernir7.jpeg" class="card-img-top" alt="camel">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Felted Camel</h5>
+                                      <p class="card-text">Lorem ipsum, dolor Lorem sit amet consectetur adipisicing elit. Veniam similique recusandae reprehenderit quos.</p>
+                                      <a href="#" class="btn btn-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images_ks/shyrdak_green.jpeg" class="card-img-top" alt="shyrdak">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Kyrgyz Wool Rug</h5>
+                                      <p class="card-text">Lorem ipsum, dolor sit Lorem consectetur adipisicing elit. Veniam similique recusandae reprehenderit quos.</p>
+                                      <a href="#" class="btn btn-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images_ks/scarf_darkblue.jpeg" class="card-img-top" alt="scarf">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Scarf with national patterns</h5>
+                                      <p class="card-text">Lorem ipsum, consectetur adipisicing elit. Veniam similique recusandae reprehenderit quos.</p>
+                                      <a href="#" class="btn btn-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="./images_ks/souvernir10.jpeg" class="card-img-top" alt="souvenir">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Felt Folk Doll</h5>
+                                      <p class="card-text">Lorem ipsum, dolor sit amet Lorem, ipsum. Lorem consectetur adipisicing elit. Veniam similique recusandae reprehenderit quos.</p>
+                                      <a href="#" class="btn btn-primary">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </a>
+                  </div>
+            </div>
+        </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
+
+<!-- <div class="carousel-item">
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images_ks/souvernir7.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Felted Camel</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, eos repellat cum.</p>
+                <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="./images_ks/shyrdak_green.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kyrgyz Wool Rug</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolorum quibusdam quasi sit?</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="./images_ks/scarf_darkblue.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Scarf with national patterns </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tenetur distinctio corporis labore!</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+    </div>
+  
+</div> -->
