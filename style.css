@@ -5,14 +5,42 @@
 }
 
 .navbar-brand > img {
-    width: 50px;
+    width: 60px;
 }
 
-.carousel-inner {
-    height: 600px;
-}
 
 h2 {
     text-align: center;
-    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
+.carousel-control-prev-icon {
+    background-image: url('./images_ks/left-arrow.svg');
+} 
+
+.carousel-control-next-icon {
+    background-image: url('./images_ks/next.svg');
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 20px;
+}
+
+.carousel-control-prev {
+    left: -120px;
+    
+}
+
+.carousel-control-next {
+    right: -120px;
+}
+
+#footer-main {
+    margin-top: 30px;
+    background: rgb(53, 52, 52);
+    color: white;
+    font-size: 12px;
+    padding: 40px 0;
+    text-decoration: none;
+}
+
